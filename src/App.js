@@ -3,9 +3,8 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-const cors = require('cors');
-
-app.use(cors())  // if name of your backend is app
+// const cors = require('cors');
+// app.use(cors())  // if name of your backend is app
 
 export default class App extends Component {
   render() {
